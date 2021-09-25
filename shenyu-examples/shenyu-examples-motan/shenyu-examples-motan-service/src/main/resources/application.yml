@@ -37,7 +37,8 @@ shenyu:
 motan:
   registry:
     protocol: zookeeper
-    address: 127.0.0.1:2181
+    address: 150.158.214.232:2181
+    connectTimeout: 6000
 
 logging:
   level:
