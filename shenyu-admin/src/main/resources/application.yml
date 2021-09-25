@@ -19,7 +19,7 @@ server:
 
 spring:
   profiles:
-    active: h2
+    active:
   thymeleaf:
     cache: true
     encoding: utf-8
@@ -27,9 +27,9 @@ spring:
     prefix: classpath:/static/
     suffix: .html
   datasource:
-    url: jdbc:mysql://localhost:3306/shenyu?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://150.158.214.232:3306/shenyu?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
-    password:
+    password: ming19940601*
     driver-class-name: com.mysql.jdbc.Driver
 
 mybatis:
