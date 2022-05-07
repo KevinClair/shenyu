@@ -27,7 +27,7 @@ com:
   alipay:
     sofa:
       rpc:
-        registry-address: zookeeper://127.0.0.1:2181
+        registry-address: zookeeper://150.158.214.232:2181
         bolt-port: 8888
 
 shenyu:
